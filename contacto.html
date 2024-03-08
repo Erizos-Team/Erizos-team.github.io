@@ -3,9 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link type="stylelsheet" rel="text/css" href="css.css"> 
+    <title>Contacto</title>
 </head>
 <body>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3180.603379455895!2d-3.6818520000000006!3d37.13835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzfCsDA4JzE4LjEiTiAzwrA0MCc1NC43Ilc!5e0!3m2!1ses!2ses!4v1709926531645!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <header>
+
+    </header>
+    <nav>
+
+    </nav>
+    <main>
+        <section>
+            <p>
+                Refugio sin animo de lucro donde un equipo de 40 voluntarios trabajamos para darle a estos
+                perretes una segunda oportunidad, ya que merecen ser queridos y tener un hogar donde ser felices :)
+                Nos puedes encontrar en Las Gabias (Granada) y los sabados tenemos un mercadillo solidario en
+                tienda animal (centro comercial nevada)
+            </p>
+        </section>
+        <section>
+            <form action="contact.php" method="post"> 
+                <div class="elem-grupo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="name" name="usuario_nombre" placeholder="Nombre de ejemplo" pattern=[A-Z\sa-z]{3,20} required> 
+                </div>
+                <div class="elem-grupo">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="usuario_email" placeholder="ejemplo@email.com" required> 
+                </div> 
+                <div class="elem-grupo">
+                    <label for="selecion">Área a contactar</label> 
+                    <select id="selecion" name="seccion" required>
+                        <option value="">Selecciona un área</option>
+                        <option value="adopcion">Adopción</option>
+                        <option value="asistencia">Asistencia veterinaria</option>
+                        <option value="servicioTecnico">Servicio al cliente</option> 
+                    </select>
+                </div>
+                <div class="elem-grupo">
+                    <label for="titulo">Motivo de contacto</label>
+                    <input type="text" id="titulo" name="email_titulo" required placeholder="Problema/Consulta" pattern=[A-Za-z0-9\s]{8,60}>
+                </div>
+                <div class="elem-grupo">
+                    <label for="mensaje">Solicitud</label>
+                    <textarea id="mensaje" name="usuario_mensaje" placeholder="Escribe tu mensaje aquí." required></textarea>
+                </div>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3180.603379455895!2d-3.6818520000000006!3d37.13835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzfCsDA4JzE4LjEiTiAzwrA0MCc1NC43Ilc!5e0!3m2!1ses!2ses!4v1709926531645!5m2!1ses!2ses" width="600" height="450" style="border:1px solid black; border-radius: 10%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <aside>
+    </aside>
+    <footer>
+
+    </footer>
 </body>
 </html>
