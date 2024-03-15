@@ -1,0 +1,9 @@
+body{
+    background-color: lightgreen;
+}
+main article :first-child{
+    background-color: black;
+}
+aside{
+    background-color: blue;
+}

@@ -3,11 +3,33 @@
 }
 
 img{
+    border-radius: 10%;
     width: 200px;
     justify-content: start;
     vertical-align: middle;
+    display:flex;
+}
+
+div{
+    background-color: rgb(198, 233, 240);
+    display:flex;
+    padding: 10px;
+    border: 2px solid rgb(115, 203, 221);
+}
+
+nav{
+    padding: 10px;
+    text-align: center;
+    background-color: lightcoral;
+    justify-items: center;
+    border: 3px inset rgb(148, 107, 226);
 }
 
 p{
-    
+    padding: 2%;
+    align-items: center;
+}
+
+a:hover{
+    text-shadow: 40%;
 }
