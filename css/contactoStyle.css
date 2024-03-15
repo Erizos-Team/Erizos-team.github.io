@@ -11,15 +11,12 @@ a {
     color: black;
 }
 
-header { 
+header {
     text-align: center;
     background-color: lightgreen;
     display:flex;
     padding: 10px;
     border: 2px solid rgb(115, 203, 221);
-}
-h1 {
-    text-align: center;
 }
 
 nav{
