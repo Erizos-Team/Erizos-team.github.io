@@ -1,9 +1,16 @@
 body{
     background-color: lightgreen;
 }
-main article :first-child{
+main{
     background-color: rgb(198, 233, 240);
 }
 aside{
     background-color: blue;
+}
+h2{
+    background-color: rgb(198, 233, 240);
+
+}
+.primer{
+    height: 920px;
 }
