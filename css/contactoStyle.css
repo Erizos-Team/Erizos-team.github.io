@@ -22,8 +22,8 @@ h1 {
     text-align: center;
 }
 
-nav {
-    padding-left: 10px;
+nav{
+    padding: 10px;
     text-align: center;
     background-color: lightcoral;
     justify-items: center;
