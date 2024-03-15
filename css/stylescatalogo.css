@@ -25,6 +25,10 @@ nav{
     border: 3px inset rgb(148, 107, 226);
 }
 
+form{
+    height: 920px;
+}
+
 p{
     padding: 2%;
     align-items: center;
